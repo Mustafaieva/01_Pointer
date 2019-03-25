@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+
+int main () 
+{
+    char a = 'T';
+    char b;
+    char c = 'S';
+    char d = 'T';
+    b = 'E';
+    
+    printf("a = %d\n",a);
+    printf("c = %d\n",c);
+    printf("d = %d\n",d);
+    printf("a'nın adresi = %d\n",&a);
+    printf("b'nin adresi = %d\n",&b);
+    printf("c'nin adresi = %d\n",&c);
+    printf("d'nin adresi = %d\n",&d);
+return 0;
+}
