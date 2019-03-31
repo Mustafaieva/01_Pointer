@@ -7,9 +7,9 @@ int main()
  {
     int a = 5;
     
-    printf("a'nin degeri: %d\n\n", a);
-    printf("a'nin adresi: %p\n", &a);
-    printf("10'luk tabanda: %u\n\n", &a);
+    printf("Value of a: %d\n\n", a);
+    printf("Address of a:  %p\n", &a);
+    printf("In  the decimal system: %u\n\n", &a);
     
     int * p;
     
@@ -20,6 +20,6 @@ int main()
     
     *p = 32;
     
-    printf("a'nin degeri: %d\n", a);
+    printf("Value of a: %d\n", a);
 return 0;
 }
