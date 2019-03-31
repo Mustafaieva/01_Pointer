@@ -20,7 +20,7 @@ int main()
     printf("Value of p: %d\n", p);
     printf(" Value of *p: %d\n\n", *p);
     
-    *p = 'B'; // ascii kodu 66
+    *p = 'B'; // ascii code 66
     
     printf("Value of a: %d\n", a);
     printf("Value of *p: %d\n", *p);
